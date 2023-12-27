@@ -19,6 +19,6 @@
 ## Configuring Jack
 1. When you install jack, you should get a program called `QjackCtl` - run that
 2. Before you start the server, go to `Setup`
-![](./assets/jack_setup.png)
 
+![](./assets/jack_setup.png)
 3. 
