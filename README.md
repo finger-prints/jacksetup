@@ -191,10 +191,11 @@ Whenever you are starting everything, do this order:
 3. In Carla, click `Open` and load your VST configuration that you saved
 
 ### Troubleshooting
-Occasionally you just get crunchy or delayed for some reason kinda like in OBS. When that happens:
+Occasionally you just get crunchy or delayed for some reason kinda like in OBS. I think it's usually only when you leave your PC running/sleep it cause it usually will stay normal while I'm actually hanging out. When that happens:
 
 1. Stop Carla
 2. Stop Jack
 3. Restart everything like you would normally
 
+Sometimes I'll notice my discord icon just get pinned to lit up (and no one can hear me) - do the same thing for that.
 **Sometimes when you load the config Carla will randomly crash - just do it again and it usually works**
