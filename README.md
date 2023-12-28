@@ -16,9 +16,16 @@
 1. Prefer VST3 and always do 64 bit - 32 bit just doesn't work on modern Windows
 2. Make sure they all install to `C:\Program Files\Common Files\<VST2 or VST3>` depending on whether it's a VST2 or VST3
 
+## Configuring Windows
+I'm not 100% sure what this looks like in Windows 11, but I'm sure you can get it.
+1. Find your microphone/sound settings
+2. Choose a sample rate for your Scarlett interface - it shouldn't really matter but I think you're generally gonna go for `2 ch, 24bit, 48000 kHz`
+
 ## Configuring Jack
 1. When you install jack, you should get a program called `QjackCtl` - run that
 2. Before you start the server, go to `Setup`
 
 ![](./assets/jack_setup.png)
-3. 
+
+3. Set your `Sample Rate` to the same one you set in Windows settings
+4. Set your `Frames/Period` to either `512` or `1024`
